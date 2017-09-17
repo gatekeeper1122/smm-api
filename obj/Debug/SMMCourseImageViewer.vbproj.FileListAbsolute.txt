@@ -1,0 +1,10 @@
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\bin\Debug\SMMCourseImageViewer.exe
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\bin\Debug\SMMCourseImageViewer.pdb
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\bin\Debug\SMMCourseImageViewer.xml
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\obj\Debug\SMMCourseImageViewer.vbprojResolveAssemblyReference.cache
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\obj\Debug\SMMCourseImageViewer.Form1.resources
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\obj\Debug\SMMCourseImageViewer.Resources.resources
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\obj\Debug\SMMCourseImageViewer.vbproj.GenerateResource.Cache
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\obj\Debug\SMMCourseImageViewer.exe
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\obj\Debug\SMMCourseImageViewer.xml
+c:\users\nathalie\documents\visual studio 2017\Projects\SMMCourseImageViewer\SMMCourseImageViewer\obj\Debug\SMMCourseImageViewer.pdb
