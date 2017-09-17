@@ -25,12 +25,14 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(212, 3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(320, 240)
         Me.PictureBox1.TabIndex = 0
@@ -38,25 +40,34 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(-1, 259)
+        Me.Button1.Location = New System.Drawing.Point(538, 215)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(322, 23)
+        Me.Button1.Size = New System.Drawing.Size(182, 23)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "View"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(0, 241)
+        Me.TextBox1.Location = New System.Drawing.Point(0, 218)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(320, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(206, 20)
         Me.TextBox1.TabIndex = 2
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 242)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(720, 81)
+        Me.PictureBox2.TabIndex = 3
+        Me.PictureBox2.TabStop = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(320, 281)
+        Me.ClientSize = New System.Drawing.Size(720, 323)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
@@ -66,6 +77,7 @@ Partial Class Form1
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SMMCourseImageViewer"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -74,4 +86,5 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
