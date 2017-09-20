@@ -42,23 +42,30 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(-1, 350)
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.Button1.Location = New System.Drawing.Point(-1, 339)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(183, 22)
+        Me.Button1.Size = New System.Drawing.Size(722, 22)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "View"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(0, 329)
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.Window
+        Me.TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.TextBox1.Location = New System.Drawing.Point(0, 321)
+        Me.TextBox1.MaxLength = 19
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(181, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(720, 20)
         Me.TextBox1.TabIndex = 2
+        Me.TextBox1.Text = "9133-0000-033A-2715"
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 246)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 240)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(720, 81)
         Me.PictureBox2.TabIndex = 3
@@ -81,18 +88,19 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(181, 330)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(320, 223)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(516, 39)
+        Me.Label1.Size = New System.Drawing.Size(0, 16)
         Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Put a Course ID and press View!"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(720, 371)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(187, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(720, 360)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.PictureBox2)
@@ -103,7 +111,7 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "SMMCourseImageViewer"
+        Me.Text = "SMMCourseImageViewer v1.2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
