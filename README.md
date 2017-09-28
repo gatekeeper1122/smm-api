@@ -1,1 +1,1 @@
-# SMMCourseImageViewer
+# SMMCourseViewer
