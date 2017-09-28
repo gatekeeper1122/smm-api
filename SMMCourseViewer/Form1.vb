@@ -1,4 +1,5 @@
-﻿Imports System.Net
+﻿Imports System.IO
+Imports System.Net
 
 Public Class Form1
     Dim wc As New WebClient
@@ -13,8 +14,9 @@ Public Class Form1
 
     Private Sub CourseData()
         Visible = False
-        wc.DownloadFile("http://www.blar.de/smm/fetch?code=" & TextBox1.Text, "course")
-        Dim _c() As String = IO.File.ReadAllLines("course")
+        Dim tmpPath As String = Path.GetTempFileName
+        wc.DownloadFile("http://www.blar.de/smm/fetch?code=" & TextBox1.Text, tmpPath)
+        Dim _c() As String = IO.File.ReadAllLines(tmpPath)
         Dim _cTitle As String = _c(3).Replace("<title>", "").Replace("</title>", "")
         Dim _cImg1 As Bitmap = New Bitmap(New IO.MemoryStream(wc.DownloadData(_c(4).Replace("<cover>", "").Replace("</cover>", ""))))
         Dim _cImg2 As Bitmap = New Bitmap(New IO.MemoryStream(wc.DownloadData(_c(5).Replace("<map>", "").Replace("</map>", ""))))
@@ -51,6 +53,7 @@ Public Class Form1
         PictureBox3.Image = _cCreatorImg
         PictureBox4.Image = _cRecordImg
         PictureBox5.Image = _cFirstImg
+        My.Computer.FileSystem.DeleteFile(tmpPath)
         Visible = True
     End Sub
 
@@ -81,5 +84,15 @@ Public Class Form1
     Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
         Clipboard.SetText(LinkLabel4.Tag)
         MsgBox("URL copied.")
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        PictureBox1.Image.Save("img1.jpg", Imaging.ImageFormat.Jpeg)
+        MsgBox("Saved to img1.jpg.")
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        PictureBox2.Image.Save("img2.jpg", Imaging.ImageFormat.Jpeg)
+        MsgBox("Saved to img2.jpg.")
     End Sub
 End Class
