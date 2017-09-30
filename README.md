@@ -1,1 +1,1 @@
-# SMMCourseViewer
+# smm-api

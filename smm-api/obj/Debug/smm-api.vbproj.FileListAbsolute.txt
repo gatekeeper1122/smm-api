@@ -1,0 +1,10 @@
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\bin\Debug\smm-api.exe
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\bin\Debug\smm-api.pdb
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\bin\Debug\smm-api.xml
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\obj\Debug\smm-api.vbprojResolveAssemblyReference.cache
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\obj\Debug\smmapi.Form1.resources
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\obj\Debug\smmapi.Resources.resources
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\obj\Debug\smm-api.vbproj.GenerateResource.Cache
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\obj\Debug\smm-api.exe
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\obj\Debug\smm-api.xml
+C:\Users\Nathalie\Documents\Visual Studio 2017\Projects\smm-api\smm-api\smm-api\obj\Debug\smm-api.pdb

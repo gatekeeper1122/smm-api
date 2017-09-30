@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{11D640B4-1CC8-4D25-B4DE-E5899A9C72B9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>SMMCourseImageViewer.My.MyApplication</StartupObject>
-    <RootNamespace>SMMCourseImageViewer</RootNamespace>
-    <AssemblyName>SMMCourseViewer</AssemblyName>
+    <StartupObject>smmapi.My.MyApplication</StartupObject>
+    <RootNamespace>smmapi</RootNamespace>
+    <AssemblyName>smm-api</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>SMMCourseViewer.xml</DocumentationFile>
+    <DocumentationFile>smm-api.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>SMMCourseViewer.xml</DocumentationFile>
+    <DocumentationFile>smm-api.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
